@@ -15,9 +15,9 @@
                 "IOKit",
                 "-framework",
                 "Cocoa",
-                "helloworld.cpp",
+                "src/helloworld.cpp",
                 "-o",
-                "helloworld.out",
+                "build/helloworld.out",
                 "--debug"
             ],
             "group": {

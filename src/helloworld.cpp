@@ -1,6 +1,7 @@
 /* Ask for an OpenGL Core Context */
 #define GLFW_INCLUDE_GLCOREARB
 #include <GLFW/glfw3.h>
+#include <glad/glad.h>
 
 #define BUFFER_OFFSET(i) ((char *)NULL + (i))
 

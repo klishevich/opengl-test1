@@ -8,6 +8,13 @@
             "args": [
                 "-std=c++17",
                 "-stdlib=libc++",
+                "-lglfw3",
+                "-framework",
+                "OpenGL",
+                "-framework",
+                "IOKit",
+                "-framework",
+                "Cocoa",
                 "helloworld.cpp",
                 "-o",
                 "helloworld.out",

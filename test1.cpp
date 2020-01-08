@@ -1,7 +1,6 @@
 /* Ask for an OpenGL Core Context */
 #define GLFW_INCLUDE_GLCOREARB
 #include <GLFW/glfw3.h>
-#include <glad/glad.h> 
 
 #define BUFFER_OFFSET(i) ((char *)NULL + (i))
 
@@ -39,13 +38,6 @@ int main(int argc, char **argv)
   {
     /* Render here */
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT); // Clear the buffers
-    glBegin(GL_TRIANGLES);
-
-    glVertex2f(-0.5f, -0.5f);
-    glVertex2f(0.0f, 0.5f);
-    glVertex2f(0.5f, -0.5f);
-
-    glEnd();
 
     /* Swap front and back buffers */
     glfwSwapBuffers(window);

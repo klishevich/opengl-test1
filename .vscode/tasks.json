@@ -9,7 +9,6 @@
                 "-std=c++17",
                 "-stdlib=libc++",
                 "--include-directory=include/",
-                "--include-directory=include/glad/",
                 "--include=include/glad.c",
                 "-lglfw3",
                 "-framework",

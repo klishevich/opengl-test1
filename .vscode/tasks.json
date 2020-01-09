@@ -8,8 +8,10 @@
             "args": [
                 "-std=c++17",
                 "-stdlib=libc++",
-                "-lglfw3",
                 "--include-directory=include/",
+                "--include-directory=include/glad/",
+                "--include=include/glad.c",
+                "-lglfw3",
                 "-framework",
                 "OpenGL",
                 "-framework",
